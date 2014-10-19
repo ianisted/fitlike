@@ -6,19 +6,40 @@
   <title></title>
   <meta name="description" content="">
   <meta name="author" content="">
-
-
+	
+	<link href="assets/css/style.css"  />
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <style>
+  	ul.menu { display: block; margin: 10px; clear: both; padding: 0; }
+  	ul.menu li { list-style: none; display:inline; margin: 0; }
+  </style>
 </head>
 
 <body>
+
+	<h1>FitLike</h1>
+	
+	<form>
+		<select class="location" name="location">
+			<option value="1">Aberdeen</option>
+			<option value="2" disabled>Edinburgh</option>
+		</select>
+	
+	</form>
+	
+	<ul class="menu">
+		<li><a href="#" class="sweat-set" data-sweat="1">1 sweat</a></li>
+		<li><a href="#" class="sweat-set" data-sweat="2">2 sweat</a></li>
+		<li><a href="#" class="sweat-set" data-sweat="3">3 sweat</a></li>
+		<li><a href="#" class="sweat-set" data-sweat="4">4 sweat</a></li>
+		<li><a href="#" class="sweat-set" data-sweat="5">5 sweat</a></li>
+	</ul>
 	
 	<ul id="activities">
 	</ul>
-
 
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/script.js"></script>

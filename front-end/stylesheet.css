@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image:url(bckgrd.png);
+	background-repeat:no-repeat;
+
+}
+h1
+{
+	font-size:28px;
+	font-family: 'Roboto', sans-serif;
+}
+form
+{
+	z-index:30px:
+	position:absolute;
+	width:405px;
+	height:380px;
+	top:2px;
+	background-color:#fff;
+	opacity:0.6;
+}
+	
